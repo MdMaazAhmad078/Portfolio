@@ -1,0 +1,127 @@
+.contact {
+    margin-right: 17rem;
+    margin-top: 2rem;
+    margin-left: 17rem;
+    font-family: 'Muli', sans-serif;
+    min-height:750px;
+}
+.contact_header {
+    text-align: center;
+}
+
+.contact_header h1 {
+    margin-bottom: 0px;
+}
+
+.contact_header p {
+    margin-top: 10px;
+}
+.contact_body{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact_left_header {
+    text-align: center;
+}
+
+.contact_right_header {
+    text-align: center;
+}
+
+.contact_left_body_card {
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 6px 18px -9px rgb(0 0 0 / 75%);
+    padding: 1rem 4rem 1rem 4rem;
+    margin-bottom: 1rem;
+}
+
+.contact_left_body_card svg {
+    font-size: 1.9rem;
+}
+
+.contact_left_body_card .title {
+    font-weight: bold;
+    margin-top: 6px;
+}
+
+.contact_left_body_card .sub_title {
+    margin-top: 0px;
+    color: grey;
+}
+
+.contact_left_body_card .write {
+    color: grey;
+}
+
+.in {
+    padding: 0.8rem;
+    border: 1px solid;
+    font-size: 0.8rem;
+    width: 82%;
+    border-radius: 0.8rem;
+}
+.Box{
+    padding:1.2rem;
+}
+
+.Box label {
+    color: grey;
+}
+
+.Box input {
+    color: #212121;
+    border-color: grey;
+}
+.Box .css-9ddj71-MuiInputBase-root-MuiOutlinedInput-root {
+    font-family: "Roboto","Helvetica","Arial",sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 1.4375em;
+    letter-spacing: 0.00938em;
+    color: rgba(0, 0, 0, 0.87);
+    box-sizing: border-box;
+    position: relative;
+    cursor: text;
+    display: inline-flex;
+    align-items: center;
+    position: relative;
+    border-radius: 19px;
+    padding: 0.1rem;
+    width:25rem
+}
+.Box .css-dpjnhs-MuiInputBase-root-MuiOutlinedInput-root{
+    border-radius: 23px;
+    font-size: 1.2rem;
+}
+
+.Box textarea {
+    color: #212121;
+    border-color: grey;
+}
+.contact_s_btn {
+    width: 11rem;
+    border-radius: 23px;
+    border: none;
+    background-color: #212121;
+    color: #fff;
+    text-align: center;
+    padding: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.2rem;
+    grid-gap: 0.5rem;
+    gap: 0.5rem;
+}
+
+.contact_s_btn:hover{
+    background-color:#000;
+    color:#fff;
+}
+
+.write{
+    cursor: pointer;
+}

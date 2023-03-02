@@ -1,0 +1,31 @@
+.Footer{
+    text-align: center;
+    font-family: 'Muli', sans-serif;
+    margin-top: 3rem;
+}
+.Footer_menu{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+}
+.Footer_icon{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    color: #212121;
+}
+.Footer_icon a{
+    text-decoration: none;
+    color: #212121;
+}
+
+
+.Footer_icon svg:hover{
+    color:#fff;
+    background-color:#212121;
+    border:none;
+    border-radius:5px;
+}
+.Footer p{
+    margin-top: 2.5rem;
+}

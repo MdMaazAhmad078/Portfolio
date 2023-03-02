@@ -1,0 +1,28 @@
+.Header {
+    margin-top: 2rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-family: 'Muli', sans-serif;
+}
+
+.Home_Header {
+    justify-content: space-between;
+    display: flex;
+    color: #1d1e20;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0;
+    font-style: normal;
+}
+
+.Home_Header_right {
+    display: flex;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+.Home_Header_right a {
+    text-decoration: none;
+    color: #1d1e20;
+}
